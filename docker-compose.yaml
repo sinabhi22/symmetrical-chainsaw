@@ -1,0 +1,8 @@
+version: '3.7'
+
+services: 
+  stack-app:
+    image: sinabhi22/stack-app:v1
+    mem_limit: 700m
+    ports:
+      - "9009:9009"
